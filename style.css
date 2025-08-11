@@ -384,9 +384,10 @@ nav .fas {
 @media only screen and (max-width: 600px) {
     #header {
         background-image: url(images/bg.png);
-        background-size: 143vw 75vh;
+        background-size: 170vw 75vh;
         background-position: bottom center;
         width: 100%;
+        background-attachment:local;
     }
 
     .header-text h1 {
@@ -498,4 +499,5 @@ nav .fas {
     color: #61b752;
     margin-top: -40px;
     display: block;
+
 }
